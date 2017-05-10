@@ -3,6 +3,10 @@ tests\guid
  [x] Guid upper cased
  [x] Guid components count
  [x] Guid regular expressions
+
+tests\uniqueness
  [x] Unique on 10 draws
+ [x] Unique on 99 draws
  [x] Unique on 5000 draws
+ [x] Unique on 9999 draws
 
