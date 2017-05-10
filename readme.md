@@ -8,5 +8,5 @@ Generate GUIDs from PHP
 
 # Installation
 
-    composer require anytizer/guid.php
+    composer require anytizer/guid.php=dev-master
 
