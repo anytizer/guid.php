@@ -1,7 +1,7 @@
 {
-    "name": "bm1/guid",
+    "name": "anytizer/guid.php",
     "description": "GUID Generator for PHP",
     "require": {
-        "php": "^7.0",
+        "php": "^7.0"
     }
 }
