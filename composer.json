@@ -1,7 +1,23 @@
 {
-    "name": "anytizer/guid.php",
-    "description": "GUID Generator for PHP",
-    "require": {
-        "php": "^7.0"
-    }
+	"name": "anytizer/guid.php",
+	"description": "GUID Generator for PHP",
+	"type": "library",
+	"keywords": [
+		"guid",
+		"unique id",
+		"uuid"
+	],
+	"authors": [
+		{
+			"role": "Developer"
+		}
+	],
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"require": {
+		"php": ">=7.0"
+	},
+	"autoload": {
+		"files": ["src/libraries/classes/backend/class.guid.inc.php"]
+	}
 }
