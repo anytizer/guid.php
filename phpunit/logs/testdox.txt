@@ -1,0 +1,8 @@
+tests\guid
+ [x] Guid length
+ [x] Guid upper cased
+ [x] Guid components count
+ [x] Guid regular expressions
+ [x] Unique on 10 draws
+ [x] Unique on 5000 draws
+
