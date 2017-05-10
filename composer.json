@@ -1,0 +1,7 @@
+{
+    "name": "bm1/guid",
+    "description": "GUID Generator for PHP",
+    "require": {
+        "php": "^7.0",
+    }
+}
