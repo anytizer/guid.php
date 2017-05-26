@@ -12,15 +12,13 @@ class guid
     public static function NewGuid(): string
     {
         mt_srand((double)microtime()*10000);
-        $characters = strtoupper(md5(uniqid(rand(), true).date("HisYmd")));
 
-        $guid = implode("-", array(
-            substr($characters,  0,  8),
-            substr($characters,  8,  4),
-            substr($characters, 12,  4),
-            substr($characters, 16,  4),
-            substr($characters, 20, 12)
-        ));
+		$rand = mt_rand(10000, 99999);
+		$uniqid = uniqid(mt_rand(), true);
+		$timestamp = date("HisYmd");
+        
+		$characters = strtoupper(md5($rand.$uniqid.$timestamp));
+		$guid = preg_replace("/^([0-9A-F]{8})([0-9A-F]{4})([0-9A-F]{4})([0-9A-F]{4})([0-9A-F]{12})$/is", "$1-$2-$3-$4-$5", $characters);
 
         return $guid;
     }
