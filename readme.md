@@ -1,6 +1,7 @@
 # guid.php
 
-Generates GUIDs using PHP
+Generates a C# like GUIDs using PHP.
+See [Inspirations](http://guid.us/GUID/PHP).
 
     $g = new guid();
     $guid = $g->NewGuid();
@@ -10,8 +11,11 @@ Generates GUIDs using PHP
 
     composer require anytizer/guid.php=dev-master
 
+
 ## CLI
+
 Put the ./bin folder in your system path.
 
 	guid
+	id
 

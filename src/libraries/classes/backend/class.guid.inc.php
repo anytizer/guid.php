@@ -9,6 +9,11 @@ namespace backend;
  */
 class guid
 {
+	/**
+	 * Generate a new GUID
+	 * 
+	 * @return string
+	 */
     public static function NewGuid(): string
     {
         mt_srand((double)microtime()*10000);

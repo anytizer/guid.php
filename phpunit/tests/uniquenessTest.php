@@ -10,6 +10,12 @@ class uniquenessTest extends TestCase
     {
     }
 
+	/**
+	 * Generate N GUIDs and return unique ones.
+	 *
+	 * @param int $times
+	 * @return int
+	 */
 	private function generateNTimes(int $times): int
 	{
 		//$total = 10;
@@ -39,7 +45,7 @@ class uniquenessTest extends TestCase
     {
 		$total = 99;
 		$uniques = $this->generateNTimes($total);
-		
+
 		$this->assertEquals($total, $uniques);
     }
 
@@ -47,7 +53,7 @@ class uniquenessTest extends TestCase
     {
 		$total = 5000;
 		$uniques = $this->generateNTimes($total);
-		
+
 		$this->assertEquals($total, $uniques);
     }
 
@@ -55,7 +61,7 @@ class uniquenessTest extends TestCase
     {
 		$total = 9999;
 		$uniques = $this->generateNTimes($total);
-		
+
 		$this->assertEquals($total, $uniques);
     }
 }
