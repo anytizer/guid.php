@@ -16,13 +16,13 @@ class guid
 	 */
 	public static function NewGuid(): string
 	{
-		mt_srand((double)microtime()*10000);
+		mt_srand((double)microtime(false)*10000);
 
-		$rand = mt_rand(10000, 99999);
-		$uniqid = uniqid(mt_rand(), true);
+		$rand = mt_rand(100000, 999999);
 		$timestamp = date("HisYmd");
+		$uniqid = uniqid(mt_rand(), true);
 
-		$characters = strtoupper(md5($rand.$uniqid.$timestamp));
+		$characters = strtoupper(md5($rand.$timestamp.$uniqid));
 		$guid = preg_replace("/^([0-9A-F]{8})([0-9A-F]{4})([0-9A-F]{4})([0-9A-F]{4})([0-9A-F]{12})$/is", "$1-$2-$3-$4-$5", $characters);
 
 		return $guid;
