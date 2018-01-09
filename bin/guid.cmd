@@ -1,2 +1,2 @@
 @echo off
-php -f %~dp0../guid.php %*
+php -f %~dp0guid.php %*

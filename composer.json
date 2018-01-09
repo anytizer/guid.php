@@ -19,7 +19,8 @@
 		"php": ">=7.0"
 	},
 	"autoload": {
+		"files": ["src/static.php"],
 		"files": ["src/libraries/classes/backend/class.guid.inc.php"],
-		"psr-4": { "\\backend\\" : "src/libraries/classes/backend" }
+		"psr-0": ["src/libraries/classes"],
 	}
 }

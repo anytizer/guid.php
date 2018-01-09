@@ -9,12 +9,12 @@ See [Inspirations](http://guid.us/GUID/PHP).
 
 ## Installation
 
-    composer require anytizer/guid.php=dev-master
+	composer require anytizer/guid.php:dev-master
 
 
 ## CLI
 
-Put the ./bin folder in your system path.
+Put the ./bin folder in your system path. The new CLI commands will be available.
 
 	guid
 	id
