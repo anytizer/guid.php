@@ -10,6 +10,7 @@
 	],
 	"authors": [
 		{
+			"name": "Developer",
 			"role": "Developer"
 		}
 	],
@@ -19,8 +20,9 @@
 		"php": ">=7.0"
 	},
 	"autoload": {
-		"files": ["src/static.php"],
-		"files": ["src/libraries/classes/backend/class.guid.inc.php"],
-		"psr-0": ["src/libraries/classes"],
+		"files": ["src/static.php", "src/libraries/classes/backend/class.guid.inc.php"],
+		"psr-0": {
+			"Guid": "src/libraries/classes"
+		}
 	}
 }
