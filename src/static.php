@@ -1,5 +1,5 @@
 <?php
-use anytizer/includer;
+use anytizer\includer;
 
 /**
  * You can register multiple paths

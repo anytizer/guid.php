@@ -17,7 +17,8 @@
 	"minimum-stability": "stable",
 	"prefer-stable": true,
 	"require": {
-		"php": ">=7.0"
+		"php": ">=7.0",
+		"anytizer/includer.php": "dev-master"
 	},
 	"autoload": {
 		"files": ["src/static.php", "src/libraries/classes/backend/class.guid.inc.php"],
