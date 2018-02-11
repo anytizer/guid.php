@@ -21,8 +21,7 @@
 		"anytizer/includer.php": "dev-master"
 	},
 	"autoload": {
-		"files": ["src/static.php", "src/libraries/classes/backend/class.guid.inc.php"],
-		"psr-0": {
+		"psr-4": {
 			"Guid": "src/libraries/classes"
 		}
 	}
