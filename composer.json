@@ -22,7 +22,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"backend\\guid": "src/libraries/classes/backend/guid.php"
+			"backend\\": "src/libraries/classes/backend"
 		}
 	}
 }
