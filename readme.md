@@ -19,3 +19,4 @@ Put the ./bin folder in your system path. The new CLI commands will be available
 	guid
 	id
 
+Or, symlink `./bin/guid` and `./bin/id` to `/usr/local/bin`.
