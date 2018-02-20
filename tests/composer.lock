@@ -1,0 +1,93 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "393d1b2860a7cbe6202b0cafc08b708b",
+    "packages": [
+        {
+            "name": "anytizer/guid.php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/anytizer/guid.php.git",
+                "reference": "80de007cb4c53aec4324e7a389a66b6083cb8704"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/anytizer/guid.php/zipball/80de007cb4c53aec4324e7a389a66b6083cb8704",
+                "reference": "80de007cb4c53aec4324e7a389a66b6083cb8704",
+                "shasum": ""
+            },
+            "require": {
+                "anytizer/includer.php": "dev-master",
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "backend\\": "src/libraries/classes/backend"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Developer",
+                    "role": "Developer"
+                }
+            ],
+            "description": "GUID Generator for PHP",
+            "keywords": [
+                "Unique ID",
+                "globally unique id",
+                "guid",
+                "uuid"
+            ],
+            "time": "2018-02-20T19:13:39+00:00"
+        },
+        {
+            "name": "anytizer/includer.php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/anytizer/includer.php.git",
+                "reference": "5e58dbbd787738dc9287fcffa020b7d874909c93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/anytizer/includer.php/zipball/5e58dbbd787738dc9287fcffa020b7d874909c93",
+                "reference": "5e58dbbd787738dc9287fcffa020b7d874909c93",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/libraries/classes/anytizer/class.includer.inc.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Custom SPL autoload registration",
+            "keywords": [
+                "autoload",
+                "includer",
+                "spl"
+            ],
+            "time": "2018-02-02T16:10:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "anytizer/includer.php": 20,
+        "anytizer/guid.php": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
