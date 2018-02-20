@@ -15,8 +15,7 @@
 		}
 	],
 	"require": {
-		"php": ">=7.0",
-		"anytizer/includer.php": "dev-master"
+		"php": ">=7.0"
 	},
 	"autoload": {
 		"psr-4": {
