@@ -24,6 +24,11 @@ class guidTest extends TestCase
 	{
 		$this->assertEquals($this->guid, strtoupper($this->guid));
 	}
+	
+	public function testGuidNotLowerCased()
+	{
+		$this->assertNotEquals($this->guid, strtolower($this->guid));
+	}
 
 	public function testGuidComponentsCount()
 	{

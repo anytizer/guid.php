@@ -1,6 +1,7 @@
 tests\guid
  [x] Guid length
  [x] Guid upper cased
+ [x] Guid not lower cased
  [x] Guid components count
  [x] Guid regular expressions
 
