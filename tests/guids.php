@@ -7,7 +7,7 @@ require_once("vendor/autoload.php");
 use backend\guid;
 
 $g = new guid();
-for($i=0; $i<5; ++$i)
+for($i=0; $i<20; ++$i)
 {
 	echo $g->NewGuid();
 	echo "\r\n";

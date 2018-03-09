@@ -18,7 +18,7 @@ class guid
 	{
 		mt_srand((double)microtime(false)*10000);
 
-		$rand = mt_rand(100000, 999999);
+		$rand = mt_rand(1000000, 9999999);
 		$timestamp = date("HisYmd");
 		$uniqid = uniqid(mt_rand(), true);
 
