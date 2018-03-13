@@ -1,7 +1,7 @@
 <?php
 namespace tests;
 
-use backend\guid;
+use \backend\guid;
 use PHPUnit\Framework\TestCase;
 
 class uniquenessTest extends TestCase

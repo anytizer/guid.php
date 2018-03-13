@@ -16,7 +16,7 @@
 	],
 	"autoload": {
 		"psr-4": {
-			"backend\\": "src/libraries/classes/backend"
+			"\\backend\\": "src/backend"
 		}
 	}
 }
