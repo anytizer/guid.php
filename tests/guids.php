@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace tests;
 
-require_once("vendor/autoload.php");
+require_once("./vendor/autoload.php");
 use \backend\guid;
 
 $g = new guid();
