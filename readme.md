@@ -5,6 +5,8 @@ See [Inspirations](http://guid.us/GUID/PHP).
 
     <?php
     use backend\guid;
+	
+	require_once("vendor/autoload.php");
 
     $g = new guid();
     $guid = $g->NewGuid();
@@ -12,7 +14,10 @@ See [Inspirations](http://guid.us/GUID/PHP).
 
 ## Installation
 
+Use one of:
+
 	composer require anytizer/guid.php:dev-master
+	composer global require anytizer/guid.php:dev-master
 
 
 ## CLI
