@@ -3,4 +3,4 @@
 /tests/vendor
 /vendor
 /tests.remote/vendor
-/tests.self/vendor
+/tests.local/vendor

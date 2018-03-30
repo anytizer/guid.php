@@ -3,12 +3,6 @@
     "description": "GUID Generator",
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "server",
-            "email": "server@example.com"
-        }
-    ],
     "autoload": {
 		"psr-4": { "backend\\": "../src/backend" }
 	}
