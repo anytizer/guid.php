@@ -1,9 +1,9 @@
 <?php
-namespace backend;
+namespace anytizer;
 
 /**
  * GUID Generator
- * @package backend
+ * @package anytizer
  *
  * @see http://guid.us/GUID/PHP
  */

@@ -23,7 +23,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "backend\\": "src/backend"
+                    "anytizer\\": "src/anytizer"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",

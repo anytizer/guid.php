@@ -4,7 +4,7 @@ Generates a C# like GUIDs using PHP.
 See [Inspirations](http://guid.us/GUID/PHP).
 
     <?php
-    use backend\guid;
+    use anytizer\guid;
 	
 	require_once("vendor/autoload.php");
 

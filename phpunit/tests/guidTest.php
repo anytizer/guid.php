@@ -1,7 +1,7 @@
 <?php
 namespace tests;
 
-use \backend\guid;
+use \anytizer\guid;
 use PHPUnit\Framework\TestCase;
 
 class guidTest extends TestCase

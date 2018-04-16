@@ -4,6 +4,6 @@
     "type": "library",
     "license": "MIT",
     "autoload": {
-		"psr-4": { "backend\\": "../src/backend" }
+		"psr-4": { "anytizer\\": "../src/anytizer" }
 	}
 }

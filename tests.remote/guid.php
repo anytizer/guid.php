@@ -3,6 +3,6 @@ namespace tests;
 
 require_once("./vendor/autoload.php");
 
-use \backend\guid;
+use \anytizer\guid;
 $guid = (new Guid())->NewGuid();
 echo $guid;
