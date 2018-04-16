@@ -4,3 +4,4 @@
 /vendor
 /tests.remote/vendor
 /tests.local/vendor
+/tests.remote/*.lock
