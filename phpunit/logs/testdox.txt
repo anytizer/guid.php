@@ -1,12 +1,12 @@
 tests\format
  [x] Id format
+ [x] Guid regular expressions
 
 tests\guid
  [x] Guid length
  [x] Guid upper cased
  [x] Guid not lower cased
  [x] Guid components count
- [x] Guid regular expressions
 
 tests\uniqueness
  [x] Unique on 10 draws

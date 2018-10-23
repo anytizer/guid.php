@@ -37,12 +37,4 @@ class guidTest extends TestCase
 
 		$this->assertEquals(5, count($matches));
 	}
-
-	public function testGuidRegularExpressions()
-	{
-		$matches = array();
-		preg_match("/^([0-9A-Z]{8})\\-([0-9A-Z]{4})\\-([0-9A-Z]{4})\\-([0-9A-Z]{4})\\-([0-9A-Z]{12})$/s", $this->guid, $matches, PREG_OFFSET_CAPTURE);
-
-		$this->assertEquals(1+5, count($matches));
-	}
 }

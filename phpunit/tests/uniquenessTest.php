@@ -18,7 +18,6 @@ class uniquenessTest extends TestCase
 	 */
 	private function generateNTimes(int $times): int
 	{
-		//$total = 10;
 		$total = $times;
 
 		$g = new guid();
