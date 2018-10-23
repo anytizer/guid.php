@@ -1,3 +1,6 @@
+tests\format
+ [x] Id format
+
 tests\guid
  [x] Guid length
  [x] Guid upper cased
