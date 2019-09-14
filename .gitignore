@@ -5,3 +5,4 @@
 /tests.remote/vendor
 /tests.local/vendor
 /tests.remote/*.lock
+/phpunit/.phpunit.result.cache

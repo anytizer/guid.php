@@ -1,9 +1,11 @@
 {
-    "name": "anytizer/guid.php",
-    "description": "GUID Generator",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-		"psr-4": { "anytizer\\": "../src/anytizer" }
-	}
+  "name": "anytizer/guid.php",
+  "description": "GUID Generator",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "anytizer\\": "../src/anytizer"
+    }
+  }
 }

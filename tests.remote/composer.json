@@ -1,5 +1,5 @@
 {
-    "require": {
-        "anytizer/guid.php": "dev-master"
-    }
+  "require": {
+    "anytizer/guid.php": "dev-master"
+  }
 }

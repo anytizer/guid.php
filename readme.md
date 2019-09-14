@@ -1,6 +1,6 @@
 # guid.php
 
-Generates a C# like GUIDs using PHP.
+Generates a unique ID, alike C# GUIDs, using PHP.
 See [Inspirations](http://guid.us/GUID/PHP).
 
     <?php
