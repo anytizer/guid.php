@@ -27,10 +27,10 @@ class uniquenessTest extends TestCase
      */
     private function generateNTimes(int $times): int
     {
-        $total = $times;
+        $guids = [];
 
         $g = new guid();
-        for ($i = 0; $i < $total; ++$i) {
+        for ($i = 0; $i < $times; ++$i) {
             $guids[] = $g->newGuid();
         }
 
