@@ -13,10 +13,10 @@ class uniquenessTest extends TestCase
 
     public function testUniqueOn10Draws()
     {
-        $total = 10;
-        $uniques = $this->generateNTimes($total);
+        $times = 10;
+        $uniques = $this->generateNTimes($times);
 
-        $this->assertEquals($total, $uniques);
+        $this->assertEquals($times, $uniques);
     }
 
     /**
@@ -42,25 +42,25 @@ class uniquenessTest extends TestCase
 
     public function testUniqueOn99Draws()
     {
-        $total = 99;
-        $uniques = $this->generateNTimes($total);
+        $times = 99;
+        $uniques = $this->generateNTimes($times);
 
-        $this->assertEquals($total, $uniques);
+        $this->assertEquals($times, $uniques);
     }
 
     public function testUniqueOn5000Draws()
     {
-        $total = 5000;
-        $uniques = $this->generateNTimes($total);
+        $times = 5000;
+        $uniques = $this->generateNTimes($times);
 
-        $this->assertEquals($total, $uniques);
+        $this->assertEquals($times, $uniques);
     }
 
     public function testUniqueOn9999Draws()
     {
-        $total = 9999;
-        $uniques = $this->generateNTimes($total);
+        $times = 9999;
+        $uniques = $this->generateNTimes($times);
 
-        $this->assertEquals($total, $uniques);
+        $this->assertEquals($times, $uniques);
     }
 }

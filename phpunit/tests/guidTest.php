@@ -17,7 +17,6 @@ class guidTest extends TestCase
 
     public function testGuidLength()
     {
-
         $this->assertEquals(36, strlen($this->guid));
     }
 
@@ -31,6 +30,9 @@ class guidTest extends TestCase
         $this->assertNotEquals($this->guid, strtolower($this->guid));
     }
 
+    /**
+     * Ensure that there are 5 components
+     */
     public function testGuidComponentsCount()
     {
         $matches = explode("-", $this->guid);
