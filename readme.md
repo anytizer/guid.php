@@ -15,5 +15,5 @@ See [Inspirations](http://guid.us/GUID/PHP).
 
 Use one of:
 
-    composer require anytizer/guid.php:dev-master
-    composer global require anytizer/guid.php:dev-master
+    composer require anytizer/guid.php=dev-master
+    composer global require anytizer/guid.php=dev-master
