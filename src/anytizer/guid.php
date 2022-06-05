@@ -17,7 +17,7 @@ class guid
      */
     public static function NewGuid(): string
     {
-        mt_srand((double)microtime(false) * 10000);
+        mt_srand((int)microtime(false) * 10000);
 
         $rand = mt_rand(1000000, 9999999);
         $timestamp = date("HisYmd");
